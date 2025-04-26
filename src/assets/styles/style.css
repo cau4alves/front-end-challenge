@@ -29,6 +29,11 @@ body {
     gap: 20px;
 }
 
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
 .container > p {
     margin-top: 50px;
     margin-left: 70px;
