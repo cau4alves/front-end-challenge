@@ -32,7 +32,6 @@ body {
 .menu a {
     text-decoration: none;
     color: white;
-
 }
 
 .container > p {
@@ -181,54 +180,66 @@ body {
 
 .testimonials .testimonials-group {
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
+    gap: 20px;
     width: 1000px;
 }
 
 .testimonials .testimonials-text {
     width: 1000px;
-}
-
-.testimonials p {
     text-align: center;
     margin-top: 20px;
 }
 
-.testimonials .group1 {
+.group1, .group2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.group1 {
     gap: 30px;
-    display: flex;
-    flex-direction: column;
-    width: 150px;
 }
 
-.group1 #test1 {
+.group2 {
+    justify-content: flex-start;
+}
+
+#test1, #test2 {
     display: flex;
+    align-items: center;
     width: 650px;
     height: 200px;
     gap: 20px;
     background-color: #181818;
 }
 
-#test1 .content-test1 {
+#test1 .content-test1,
+#test2 .content-test2,
+#test3 .content-test3 {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    padding: 10px;
     align-items: start;
+    justify-content: center;
 }
 
-#test1 img {
+#test1 img,
+#test2 img,
+#test3 img {
     width: 200px;
     height: 200px;
 }
 
-.group1 #test2 {
+#test3 {
     display: flex;
-    width: 650px;
-    height: 200px;
-    gap: 20px;
+    flex-direction: column;
+    width: 200px;
+    height: 480px;
+    gap: 40px;
     background-color: #181818;
 }
 
-#test2 img {
-    width: 200px;
-    height: 200px;
+#test3 .content-test3 {
+    padding: 20px; /* Ajuste o valor conforme desejar */
 }
