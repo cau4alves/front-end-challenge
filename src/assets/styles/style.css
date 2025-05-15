@@ -243,8 +243,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 200px;
-    height: 480px;
-    gap: 40px;
+    height: 440px;
     background-color: #181818;
 }
 
