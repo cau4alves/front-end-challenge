@@ -178,6 +178,14 @@ body {
     align-items: center;
 }
 
+.testimonials button {
+    margin-top: 30px;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
 .testimonials .testimonials-group {
     display: flex;
     margin-top: 40px;
