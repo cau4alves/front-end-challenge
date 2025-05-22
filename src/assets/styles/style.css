@@ -18,13 +18,13 @@ body {
     position: relative;
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     padding: 70px;
 }
 
-.header .menu {
+header .menu {
     display: flex;
     gap: 20px;
 }
@@ -171,6 +171,7 @@ body {
 }
 
 .testimonials {
+    font-family: "Inter";
     margin-top: 200px;
     width: 100%;
     display: flex;
@@ -179,8 +180,8 @@ body {
 }
 
 .testimonials button {
-    margin-top: 30px;
-    padding: 12px;
+    margin-top: 50px;
+    padding: 15px;
     color: white;
     background-color: black;
     border: 1px solid white;
@@ -248,5 +249,74 @@ body {
 }
 
 #test3 .content-test3 {
-    padding: 20px; /* Ajuste o valor conforme desejar */
+    padding: 20px; 
+}
+
+
+.contact {
+    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 280px;
+    width: 100%;
+}
+
+.form-contact {
+    margin-top: 15px;
+    width: 50%;
+}
+
+.form-contact label {
+    font-size: 28px;
+}
+
+.form-contact input {
+    color: white;
+    width: 100%;
+    background-color: black;
+    border: 0px solid white;
+    border-bottom: 3px solid white;
+    margin-bottom: 40px;
+    padding: 5px 0px 5px 0px;
+}
+
+.form-contact textarea {
+    color: white;
+    width: 100%;
+    background-color: black;
+    border: 0px solid white;
+    border-bottom: 3px solid white;
+    margin-bottom: 40px;
+}
+
+.form-contact .message {
+    height: 50px;
+}
+
+.form-contact button {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    border: 0px solid;
+    width: 120px;
+    height: 40px;
+}
+
+footer {
+    margin: 300px 0px 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .company {
+    font-weight: bold;
+}
+
+footer .privacy {
+    margin-top: 15px;
+    display: flex;
 }

@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
+        <header>
             <p class="logo">Logo</p>
             <div class="menu">
                 <p>Home</p>
@@ -16,7 +16,7 @@
                 <a href="#about">About</a>
                 <p>Contact</p>
             </div>
-        </div>
+        </header>
         <img src="src/assets/images/Rectangle 19.png" class="photo-right">
         <img src="src/assets/images/Rectangle 18.png", class="photo-left">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor 
@@ -67,7 +67,7 @@
                     <div id="test1">
                         <img src="src/assets/images/Rectangle 31.png">
                         <div class="content-test1">
-                            <p>“Amazing Team with Lorem Ipsum”</p>
+                            <h3>“Amazing Team with Lorem Ipsum”</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
                             <p>See full review --></p>
                         </div>
@@ -94,7 +94,26 @@
         </div>
         <div class="contact">
             <h2 class="title-section">Contact</h2>
+            <form class="form-contact">
+                <label for="name">Name</label><br>
+                <input type="text" placeholder="Jhon Doe" class="name" id="name">
+
+                <label for="email">Email</label><br>
+                <input type="text" name="email" id="email" placeholder="Jhon@email.com">
+
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" placeholder="Enter your message here..." rows="10" cols="10"></textarea>
+
+                <button>Send</button>
+            </form>
         </div>
+        <footer>
+            <p class="company">2022 Company</p>
+            <div class="privacy">
+                <p>Privacy Policy</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms and Conditions</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
